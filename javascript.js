@@ -94,7 +94,7 @@
 
           document.body.scrollLeft = 0;
           document.documentElement.scrollLeft = 0;
-          window.location = "home.html";
+          window.location = "index.html";
 
 
         }
