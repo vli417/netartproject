@@ -1,0 +1,214 @@
+.imagecontainer {
+  position: relative;
+  width: 100%;
+}
+
+/* body style */
+body{
+  background-image: url("https://www.netpremacy.com/wp-content/uploads/2018/10/big-data-background-2-sml.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+
+}
+
+/* big container /  background&overall */
+.BigContainer{
+  display: flex;
+  flex:direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+/* container for first page  */
+.container{
+  width: 200vh;
+  height: 100vh;
+  border: 15px solid #FF5F7E;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6E3CBC;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+.header{
+  order: 1;
+
+  text-shadow: 3px 3px black;
+  font-size: 20px;
+
+}
+
+.underheader{
+  order: 2;
+
+}
+
+.underheader1{
+  order: 3;
+}
+
+.container2{
+  width: 50vh;
+  height: 50vh;
+  border: 15px solid #93FFD8;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6E3CBC;
+  padding: 20px;
+  text-align: center;
+
+  .p1title{
+    order: 1;
+
+    text-shadow: 3px 3px black;
+    font-size: 20px;
+
+  }
+
+  .info{
+    order: 2;
+
+  }
+
+}
+
+.container3{
+
+  width: 100%;
+
+  border: 10px solid #FF5F7E;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:row;
+
+
+  background-color: #6E3CBC;
+  padding: 20px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+  font-size: 18px;
+  font-family: Helvetica;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #93FFD8;
+  color: black;
+}
+
+
+
+
+
+
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+
+
+
+
+p.smal {
+  line-height: 1.0;
+  text-align: justify;
+}
+
+p.small {
+  line-height: 1.5;
+  text-align: justify;
+}
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 60%;
+  background-color: black;
+  padding-right: 10px
+}
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 40%;
+  background-color: white;
+  padding-left: 10px
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Left column 1 */
+.leftcolumn1 {
+  float: left;
+  width: 25%;
+  background-color: black;
+  padding-right: 10px
+
+/* middle column */
+.midcolumn{
+  float: center;
+  width: 60%;
+  background-color: black;
+  padding-right: 10px
+}
+
+/* Right column 1 */
+.rightcolumn1 {
+  float: right;
+  width: 15%;
+  background-color: black;
+  padding-left: 10px
+}
